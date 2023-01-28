@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+body {    
+    margin: 30px 50px;
+    
+}
+div {
+    border: 1px solid rgba(220, 220, 220, 0.923) ;
+    padding: 30px ;
+    border-radius: 6px;
+    background-color: rgb(199, 199, 199);
+}
+H1 {
+    color: rgb(255, 52, 52); text-decoration: double; background-color: black; text-align: center; font-weight: bold; font-size: 50px; font-family: 'Times New Roman', Times, serif;
+}
+H2 {
+    color: rgb(12, 12, 12); text-align: center; font-weight: 500; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: bold ; border: black; background-color: brown;
+}
+p {
+    font-weight: 900; font-size: larger; 
+}
+fieldset {
+    font-weight: 900; font-size: larger;
+}
+.pay:hover {
+    color: rgb(0, 0, 0); font-weight: bold; background-color: rgb(119, 119, 119);
+}
+footer {
+    background-color: rgb(108, 108, 108); font-weight: bold; color: antiquewhite;
+    margin-top: 50%; text-align: right; font-size: 120%;
+}   
+a{
+    color: antiquewhite; 
+}
+a:hover {
+    text-decoration: underline; color: black;
+    
+}
+input[type= "text"],
+input[type= "email"],
+input[type= "number"],
+input[type= "password"],
+input[type= "submit"],
+input[type= "submit"],
+textarea,
+select{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;border-radius: 5px;
+    border: rgb(205, 202, 202);
+    resize: none;
+    
+}
+select:hover{
+    color: rgb(203, 197, 197);
+}
+select option {
+    color: black;
+}
+
+
+

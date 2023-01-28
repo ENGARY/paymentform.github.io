@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAYMENT FORM</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <FORm>
+        <div>
+            * represents compulsory fields.
+             <H1>PAYMENT FORM</H1>
+             <H2>PERSONAL INFO</H2>
+             <p>Name: * <input type="text" name="name" id="name" required placeholder="Eg: ARYAN GUPTA"></p>
+             <fieldset class="gender">
+                 <legend>Gender *</legend>
+                 male <input type="radio" name="gender" id="male" required>
+                 female <input type="radio" name="gender" id="female" required>
+             </fieldset>
+             <p>Address: <textarea name="address" id="address" cols="50" rows="10" ></textarea></p>
+             <p>Email: * <input type="email" name="em" id="em"></p>
+             <hr>
+             <h2>PAYMENT INFO</h2>
+             <p>Card no. : * <input type="number" name="cd no." id="cd no."></p>
+             <fieldset>
+                 <legend>Card Type</legend>
+                 <select name="cd type" id="cd type">
+                     <option value="">SELECT A CARD TYPE</option>
+                     <option value="visa">Visa</option>
+                     <option value="mastercard">Mastercard</option>
+                 </select>
+             </fieldset>
+             <p>CVV : *<input type="password" name="cvv" id="cvv"></p>
+             <input type="submit" value="PAY" class="pay">
+             <br>
+             <hr>
+             <footer>
+                <a href="#" >HELP</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#">FAQS</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#">CONTACT</a>&nbsp;&nbsp;&nbsp;&nbsp;
+             </footer>
+
+        </div>
+            
+    </FORm>
+    
+   
+    
+</body>
+</html>
